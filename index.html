@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeverEndingLove 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hearts-container"></div>  <!-- Floating hearts -->
+
+    <!-- Background Music -->
+    <audio id="bgMusic" loop>
+        <source src="music/romantic-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="loveLetterBtn">💌 Open Love Letter</button>
+<div id="loveLetterPopup" class="popup">
+    <div class="popup-content">
+        <span class="close">&times;</span>
+        <h2>Dear Bandariya 🐵❤️</h2>
+        <p>You are the most special person in my life. Every moment with you is magical, and I can't wait to make more memories together. Happy Valentine's Week! 💖</p>
+    </div>
+</div>
+
+<div id="secretMessage" class="hidden">
+    🎉 Surprise! I love you forever, Bandariya! 🐵❤️
+</div>
+<button id="secretHeart">❤️ Click Me 3 Times!</button>
+
+    <div class="container">
+        <h1 class="glow">Heyy, Bandariya 🐵❤️!</h1>
+        <p>Happy Valentine's Week! 🎉</p>
+
+        <!-- Countdown Timer -->
+        <h2>Countdown to Valentine's Day: <span id="countdown"></span></h2>
+
+        <!-- Valentine's Week Events -->
+        <button id="showEvent">Show Today's Surprise</button>
+        <div id="eventMessage" class="hidden fade-in">Loading your surprise... 💝</div>
+        <img id="eventImage" class="hidden event-img" src="">
+
+        <!-- Photo Gallery -->
+        <h2>Our Beautiful Moments 💕</h2>
+        <div class="gallery">
+            <img src="images/photo1.jpg" alt="Memory 1">
+            <img src="images/photo2.jpg" alt="Memory 2">
+            <img src="images/photo3.jpg" alt="Memory 3">
+        </div>
+
+        <!-- Music Control -->
+        <button id="playMusic">Play Romantic Music 🎶</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
